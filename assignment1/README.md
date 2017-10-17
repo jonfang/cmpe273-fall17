@@ -1,4 +1,4 @@
-#Steps
+# Steps
 1.run "sudo docker build -t friendlyhello ." to build the docker image
 2.run "sudo docker run -p 4000:80 friendlyhello" to start the docker image
 3.access server via URL: http://localhost:4000
