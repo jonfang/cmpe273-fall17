@@ -1,2 +1,0 @@
-sudo docker build -t friendlyhello .
-sudo docker run -p 4000:80 friendlyhello
