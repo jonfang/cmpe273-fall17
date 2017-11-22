@@ -1,7 +1,0 @@
-sudo docker run -p 3000:3000 -it --rm --name lab1-server -v "$PWD":/usr/src/myapp -w /usr/src/myapp ubuntu-python3.6-rocksdb-grpc:1.0 python3.6 server.py
-
-
-
-sudo docker run -it --rm --name lab1-client1 -v /home/jonathan/Courses/cmpe273-fall17/assign2:/usr/src/myapp -w /usr/src/myapp ubuntu-python3.6-rocksdb-grpc:1.0 python3.6 client1.py 192.168.0.1
-
-sudo docker run -it --rm --name lab1-client -v /home/jonathan/Courses/cmpe273-fall17/assign2:/usr/src/myapp -w /usr/src/myapp ubuntu-python3.6-rocksdb-grpc:1.0 python3.6 client.py 192.168.0.1
