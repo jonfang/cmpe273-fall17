@@ -1,0 +1,2 @@
+export SLACK_BOT_TOKEN=xoxb-267332245988-szpTYxky9pHRhi74NnhQtDsi
+export BOT_ID=U7V9S77V2
